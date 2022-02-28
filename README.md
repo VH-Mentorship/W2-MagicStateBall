@@ -13,4 +13,4 @@ Following instructions is good and all, but very unlike what you'll be doing as 
 
 1. **Modularize your code:** That answerArray is over 100 characters, Yuck 🤢. Let's hide it in another file. Figure out how to put answerArray in its own file, export it, and import it into `App.js`!
 2. **More with states:** Having a bad day? Create a [checkbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox) that, when checked, will only let the 8-ball return positive phrases (i.e. "It is certain", "without a doubt"). You will need to create a new function to handle this, and make good friends with Stack Overflow and the documentation.
-3. **What next?** Anything you want! Make the ball shake when you click it, add functionality for a space bar, create a "leaderboard" of results based on how often they show up...
+3. **What next?** Anything you want! Make the ball shake when you click it with CSS animations, add functionality for a space bar, create a "leaderboard" of results based on how often they show up... Reach out to your pod leaders or in `mentee-works` for advice!
