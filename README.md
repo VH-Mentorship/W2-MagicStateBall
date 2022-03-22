@@ -6,7 +6,17 @@ This take-home will give you practice with React through a fun and simple projec
 
 ## Instructions
 
-...
+1. Open your command line (Terminal) and cd (change directory) into the folder you would like to put this project in.
+2. Run ```git clone ``` and then ```cd vh-magic-st8-ball``` to access the directory
+4. Run ```npm install``` to install all the dependencies
+5. Run ```npm start``` and check out this boring State Ball.
+6. Open the folder in VSCode
+7. Take a look at the *App.js* file in the *src* folder. There is an array containing all the messages in line 8, and the first item (the 0 index) is displayed in line 15. 
+8. We want to change the message when you click on the ball. This involves grabbing the event ```onClick``` from the ```<button>```. Similar to what we did in our todolist application, create a function ```changeMessage``` that is called when you click on the ```<button>``` by incrementing our ```displayIndex``` in the function ```setDisplayIndex```.
+9. While this works, it doesn't provide the randomness or a real State Ball. Look up the random() function in Javascript, and use it to set our index to a random index within the array (that isn't 0).
+
+
+\*The solution code can be found in the ```completed``` branch.
 
 ## Challenges
 Following instructions is good and all, but very unlike what you'll be doing as a real developer. Complete these challenges, make this 8-ball your own, and show it off to friends and in the `mentee-works` Discord channel! (TIP: Make Google searching your best friend)
