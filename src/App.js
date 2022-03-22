@@ -28,11 +28,15 @@ function App() {
 
   const [displayIndex, setDisplayIndex] = useState(0); // Initialize state with 0
 
+  const changeState = () => {
+    setDisplayIndex(Math.floor(Math.random() * (answerArray.length - 1)) + 1);
+  };
+
   return (
     <section className="centered">
       <div className="outer-ball centered">
-        <button className="inner-ball centered">
-          {answerArray[displayIndex]}
+        <button className="inner-ball centered" onClick={changeState}>
+          {answerArray[displayIndex]}{" "}
           {/* Access the value specified by displayIndex */}
         </button>
       </div>
