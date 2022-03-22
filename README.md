@@ -7,7 +7,8 @@ This take-home will give you practice with React through a fun and simple projec
 ## Instructions
 
 1. Open your command line (Terminal) and cd (change directory) into the folder you would like to put this project in.
-2. Run ```git clone https://github.com/VH-Mentorship/W2-TH-Magic-State-Ball.git``` to copy this starter code and then ```cd W2-TH-Magic-State-Ball``` to access the directory.
+2. Run ```git clone https://github.com/VH-Mentorship/W2-TH-Magic-State-Ball.git``` to copy this starter code.
+3. Run ```cd W2-TH-Magic-State-Ball``` to access the directory.
 4. Run ```npm install``` to install all the dependencies
 5. Run ```npm start``` and check out this boring State Ball.
 6. Open the folder in VSCode
