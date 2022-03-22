@@ -8,9 +8,8 @@ function App() {
   const [displayIndex, setDisplayIndex] = useState(0); // Initialize state with 0
 
   const changeState = (() => {
-        // WRITE CODE HERE
+        setDisplayIndex(Math.floor(Math.random() * (answerArray.length-1))+1)
   });
-
 
 
   return (
