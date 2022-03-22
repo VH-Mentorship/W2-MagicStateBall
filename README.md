@@ -1,4 +1,4 @@
-# VH Mentorship Workshop 1 Take-Home #3: Magic State Ball
+# VH Mentorship Workshop 2 Take-Home #1: Magic State Ball
 
 ## Overview
 
